@@ -1,11 +1,11 @@
-def operacion:
-
+def operacion(num):
   try:
-    resultado = a/b
-  except ZeroDivisionError:
-    print("No se puede dividir por cero")
+    resultado = num +10
+  except TypeError:
+    print("No es correcto ")
   else:
-    print(resultado)
+    print("El nuevo resultado es:", resultado)
   return
-operacion(7,0)
-operacion(7,1)
+operacion("Hola")
+operacion(7)
+operacion(2)
